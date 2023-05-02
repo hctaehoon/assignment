@@ -1,5 +1,5 @@
-input_string = input("단어를 입력해주세요":)
-output_string = ''.join(sorted(input_string, reverse=True))
+input_string = input("단어만 입력:")
+output_string = ''.join(input_string[::-1])
 if input_string == output_string:
     print("회문자가 맞습니다.")
 else:
